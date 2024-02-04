@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setIsIconUp((prev) => !prev);
-    }, 1300);
+    }, 350);
 
     return () => clearInterval(intervalId);
   }, []);
