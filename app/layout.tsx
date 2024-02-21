@@ -14,12 +14,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
-  const combinedClassName = `${inter.className} bg-slate-200`;
-
   return (
     <html lang="en">
-      <body className={combinedClassName}>
+      <body className={inter.className}>
         {children}
       </body>
     </html>
