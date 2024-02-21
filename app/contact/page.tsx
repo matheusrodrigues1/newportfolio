@@ -19,13 +19,13 @@ const Contact = () => {
   return (
     <div className="flex bg-slate-200 pt-5 md:pt-3 lg:pt-10 border-t-2 w-full h-64 lg:h-80 flex-col items-center">
       <Image src={Newsletter} alt='newsletter' />
-      <h1 className="font-bold mb-3 md:mb-5 lg:mb-8 md:text-xl lg:text-2xl">Me mande um email</h1>
+      <h1 className="font-bold text-black mb-3 md:mb-5 lg:mb-8 md:text-xl lg:text-2xl">Me mande um email</h1>
       <div className={`flex bg-gray-200 p-4 md:w-[32rem] lg:w-[40rem] justify-center rounded md:rounded-b-none font-medium ${copiado ? 'bg-teal-300' : ''}`}>
         <h4>{email}</h4>
       </div>
       <button
         onClick={copiarEmail}
-        className="mt-0 px-4 py-2 md:w-[32rem] lg:w-[40rem] bg-blue-500 text-white rounded md:rounded-t-none hover:bg-blue-600"
+        className="mt-0 p-4 md:w-[32rem] lg:w-[40rem] bg-blue-500 text-white rounded md:rounded-t-none hover:bg-blue-600"
       >
         {copiado ? 'EMAIL COPIADO!' : 'COPIAR EMAIL'}
       </button>
