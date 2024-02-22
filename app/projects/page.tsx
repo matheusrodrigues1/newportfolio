@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="card">
               <div className="p-5 flex flex-col">
                 <div className="rounded-xl overflow-hidden">
-                  <Image src={banner3} alt="banner"/>
+                  <Image src={banner4} alt="banner"/>
                 </div>
                 <h5 className="text-2xl md:text-3xl font-medium mt-3">Project 1</h5>
                 <p className="text-slate-500 text-lg mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ut dolorum veritatis labore doloribus sapiente, ratione facere expedita fugit a maiores in repudiandae amet, minus sit minima! Accusamus, impedit fugiat?</p>
@@ -42,7 +42,7 @@ const Projects = () => {
             <div className="card">
               <div className="p-5 flex flex-col">
                 <div className="rounded-xl overflow-hidden">
-                  <Image src={banner4} alt="banner"/>
+                  <Image src={banner3} alt="banner"/>
                 </div>
                 <h5 className="text-2xl md:text-3xl font-medium mt-3">Project 1</h5>
                 <p className="text-slate-500 text-lg mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ut dolorum veritatis labore doloribus sapiente, ratione facere expedita fugit a maiores in repudiandae amet, minus sit minima! Accusamus, impedit fugiat?</p>
