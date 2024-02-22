@@ -10,7 +10,7 @@ const Projects = () => {
        <div className="flex items-center bg-white justify-center min-h-screen container mx-auto">
           <div className="grid grid-cols-1 mt-7 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="card">
-              <div className="p-5 flex h-full bg-[#1C1C1C] rounded-lg flex-col">
+              <div className="p-5 flex h-full bg-[#1C1C1C] rounded-3xl flex-col">
                 <div className="rounded-xl overflow-hidden">
                   <Image src={banner} alt="banner"/>
                 </div>
