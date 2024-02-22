@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
 
-    <div className="flex bg-stone-50 font-extrabold md:pt-20 text-5xl flex-col justify-center md:items-center md:justify-center lg:items-center lg:justify-center h-screen w-screen">
+    <div className="flex bg-stone-50 font-extrabold pl-10 md:pt-20 text-5xl flex-col justify-center md:items-center md:justify-center lg:items-center lg:justify-center h-screen w-screen">
       <div className="flex flex-row items-center pl-20 md:pl-0 gap-2 md:gap-[1.18rem] lg:gap-[0.7rem] mb-3 md:mb-8 text-zinc-700">
           <a href="https://www.linkedin.com/in/matheus-rodrigues-1a1899231/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="w-7 md:w-10 lg:w-16 transition-transform transform hover:-translate-y-1 hover:text-teal-500" icon={faLinkedin} />
