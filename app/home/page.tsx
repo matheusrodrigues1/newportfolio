@@ -33,14 +33,14 @@ const Home = () => {
             <FontAwesomeIcon className="w-7 md:w-10 lg:w-16 transition-transform transform hover:-translate-y-1 hover:text-[#3f729b]" icon={faInstagram} />
           </a>
       </div>
-      <div className='text-black md:text-[10rem] lg:text-[8.6rem] md:font-extrabold'>
+      <div className='text-black md:text-[7rem] lg:text-[8.6rem] md:font-extrabold'>
         <h1 className='mb-[-10px] md:mb-[-23px] lg:mb-[-35px]'>SOFTWARE</h1>
         <h1>DEVELOPER</h1>
       </div>
       <div className="w-80 md:w-[27rem] lg:w-[32rem] md:ml-[17rem] lg:ml-[25rem] mt-1 mb-8 md:mt-0">
-        <p className="font-normal text-[#363636] md:font-semibold text-[0.75rem] md:text-sm lg:text-base text-left leading-3">TENHO 23 ANOS SOU DESENVOLVEDOR FULLSTACK COM 2 ANOS DE EXPERIÊNCIA TRABALHANDO COMO FREELANCER.</p>
+        <p className="font-normal text-[#363636] md:font-semibold text-[0.75rem] md:text-[0.90rem] lg:text-base text-left leading-3">TENHO 23 ANOS SOU DESENVOLVEDOR FULLSTACK COM 2 ANOS DE EXPERIÊNCIA TRABALHANDO COMO FREELANCER.</p>
       </div>
-      <div className="flex items-end md:items-center pt-[8rem] md:pt-[4.5rem] pl-[9rem] md:pl-0">
+      <div className="flex items-end md:justify-start md:items-center md:mt-10 pt-[8rem] md:pt-[4.5rem] pl-[9rem] md:pl-0">
           <FontAwesomeIcon className={`text-white w-9 lg:w-11 text-6xl mr-2 cursor-pointer transition-transform transform ${
           isIconUp ? '-translate-y-1' : 'translate-y-1'
         }`} icon={faCircleDown} />
