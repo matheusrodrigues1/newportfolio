@@ -25,7 +25,7 @@ const Home = () => {
           <a href="https://github.com/matheusrodrigues1" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="w-7 md:w-10 lg:w-16 transition-transform transform hover:-translate-y-1 hover:text-white" icon={faGithub} />
           </a>
-          <a href="https://drive.google.com/file/d/1Jfn9RAqFR3YaQbL8j_lJA0z8HHlLI3Xq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/drive/u/2/home" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="w-[1.4rem] md:w-[1.8rem] lg:w-[2rem] transition-transform transform hover:-translate-y-1 hover:text-[#0000CD]" icon={faFileLines} />
           </a>
           <a href="https://drive.google.com/file/d/1Jfn9RAqFR3YaQbL8j_lJA0z8HHlLI3Xq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
