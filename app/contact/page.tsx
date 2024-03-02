@@ -28,7 +28,7 @@ const Contact = () => {
         onClick={copiarEmail}
         className="mt-1 p-3 w-[17rem] md:w-[32rem] lg:w-[40rem] bg-[#fffc00] text-black rounded md:rounded-t-none hover:bg-[#808080]"
       >
-        {copiado ? 'EMAIL COPIADO!' : 'COPIAR EMAIL'}
+        {copiado ? 'EMAIL COPIED!' : 'COPY EMAIL'}
       </button>
     </div>
   );
