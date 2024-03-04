@@ -33,8 +33,8 @@ const Home = () => {
           </a>
       </div>
       <div className='text-black md:text-[7rem] lg:text-[8.6rem] md:font-extrabold'>
-        <h1 className='mb-[-10px] md:mb-[-23px] lg:mb-[-35px]'>SOFTWARE</h1>
-        <h1>DEVELOPER</h1>
+        <h1 translate="no" className='mb-[-10px] md:mb-[-23px] lg:mb-[-35px]'>SOFTWARE</h1>
+        <h1 translate="no">DEVELOPER</h1>
       </div>
       <div className="w-80 md:w-[27rem] lg:w-[32rem] md:ml-[17rem] lg:ml-[25rem] mt-1 mb-8 md:mt-0">
         <p className="font-normal text-[#363636] md:font-bold text-[0.75rem] md:text-[0.90rem] lg:text-base text-left leading-3">I AM 23 YEARS OLD, I AM A FULLSTACK DEVELOPER WITH 2 YEARS OF EXPERIENCE WORKING AS A FREELANCER.</p>
