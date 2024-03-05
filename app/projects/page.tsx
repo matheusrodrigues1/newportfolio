@@ -18,8 +18,8 @@ const Projects = () => {
                 <h5 className="text-2xl text-white md:text-3xl font-medium mt-3">Imaginify</h5>
                 <p className="text-[#DCDCDC] text-sm mt-3">A standout AI image platform that excels in image processing features, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports various AI capabilities including image restoration, recoloring, object removal, generative inpainting, and background removal.</p>
                 <p className="text-white text-md mt-2 he">Technologies: <span className="text-[#FF4500]">NextJS</span>, <span  className="text-[#1E90FF]">Typescript</span>, <span className="text-[#4682B4]">Tailwindcss</span>, <span className="text-[#00FF00]">MongoDB</span> e <span className="text-[#1E90FF]">Stripe</span>.</p>
-                <a href="https://github.com/matheusrodrigues1/snapchatapp" target="_blank" rel="noopener noreferrer" className="text-center bg-white text-black py-2  rounded-lg font-semibold mt-9 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Github Repository</a>
-                <a href="https://snapchatapp.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-center bg-blue-400 text-black py-2  rounded-lg font-semibold mt-1 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Project Link</a>
+                <a href="https://github.com/matheusrodrigues1/Imaginefy" target="_blank" rel="noopener noreferrer" className="text-center bg-white text-black py-2  rounded-lg font-semibold mt-9 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Github Repository</a>
+                <a href="https://imaginefy.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-center bg-blue-400 text-black py-2  rounded-lg font-semibold mt-1 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Project Link</a>
               </div>
             </div>
             <div className="card">
