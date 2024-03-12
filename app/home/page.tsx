@@ -28,7 +28,7 @@ const Home = () => {
           <a href="https://drive.google.com/file/d/1toXe3NRzzJkPKXKLfh-UbgzwFWvZoVhF/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="w-[1.4rem] md:w-[1.8rem] lg:w-[2rem] transition-transform transform hover:-translate-y-1 hover:text-[#0000CD]" icon={faFileLines} />
           </a>
-          <a href="https://drive.google.com/file/d/1Jfn9RAqFR3YaQbL8j_lJA0z8HHlLI3Xq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/math.eusrrodrigues/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="w-7 md:w-10 lg:w-16 transition-transform transform hover:-translate-y-1 hover:text-[#3f729b]" icon={faInstagram} />
           </a>
       </div>
