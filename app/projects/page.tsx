@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className="rounded-xl overflow-hidden">
                   <Image src={banner0} alt="banner"/>
                 </div>
-                <h5 className="text-2xl text-white md:text-3xl font-medium mt-3">Imaginify</h5>
+                <h5 translate="no" className="text-2xl text-white md:text-3xl font-medium mt-3">Imaginify</h5>
                 <p className="text-[#DCDCDC] text-sm mt-3">A standout AI image platform that excels in image processing features, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports various AI capabilities including image restoration, recoloring, object removal, generative inpainting, and background removal.</p>
                 <p className="text-white text-md mt-2 he">Technologies: <span className="text-[#FF4500]">NextJS</span>, <span  className="text-[#1E90FF]">Typescript</span>, <span className="text-[#4682B4]">Tailwindcss</span>, <span className="text-[#00FF00]">MongoDB</span> e <span className="text-[#1E90FF]">Stripe</span>.</p>
                 <a href="https://github.com/matheusrodrigues1/Imaginefy" target="_blank" rel="noopener noreferrer" className="text-center bg-white text-black py-2  rounded-lg font-semibold mt-9 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Github Repository</a>
@@ -27,7 +27,7 @@ const Projects = () => {
                 <div className="rounded-xl overflow-hidden">
                   <Image src={banner} alt="banner"/>
                 </div>
-                <h5 className="text-2xl text-white md:text-3xl font-medium mt-3">SnapchatApp</h5>
+                <h5 translate="no" className="text-2xl text-white md:text-3xl font-medium mt-3">SnapchatApp</h5>
                 <p className="text-[#DCDCDC] text-sm mt-3">The snapchatapp project is an application that aims to replicate the main functionalities of the Snapchat app, providing a platform for exchange of instant messages and multimedia among users.</p>
                 <p className="text-white text-md mt-2 he">Technologies: <span className="text-[#FF4500]">NextJS</span>, <span  className="text-[#1E90FF]">Typescript</span>, <span className="text-[#4682B4]">Tailwindcss</span> e <span className="text-[#00FF00]">MongoDB</span>.</p>
                 <a href="https://github.com/matheusrodrigues1/snapchatapp" target="_blank" rel="noopener noreferrer" className="text-center bg-white text-black py-2  rounded-lg font-semibold mt-9 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Github Repository</a>
@@ -39,7 +39,7 @@ const Projects = () => {
                 <div className="rounded-xl overflow-hidden">
                   <Image src={banner2} alt="banner"/>
                 </div>
-                <h5 className="text-2xl text-white md:text-3xl font-medium mt-3">Evently</h5>
+                <h5 translate="no" className="text-2xl text-white md:text-3xl font-medium mt-3">Evently</h5>
                 <p className="text-[#DCDCDC] text-sm mt-3">Evently is an online events platform, offering registration and participation in a variety of activities. With integrations of Next.js, Stripe, Clerk, and MongoDB, along with the use of the Tailwind CSS framework, it provides a simplified and secure experience for organizers and participants.</p>
                 <p className="text-white text-md mt-2 he">Technologies: <span className="text-[#FF4500]">NextJS</span>, <span className="text-[#1E90FF]">Typescript</span>, <span className="text-[#4682B4]">Tailwindcss</span>, <span className="text-[#00FF00]">MongoDB</span>, <span className="text-[#FF69B4]">Stripe</span> e <span className="text-[#7B68EE]">Clerk</span>.</p>
                 <a href="https://github.com/matheusrodrigues1/evently" target="_blank" rel="noopener noreferrer" className="text-center bg-white text-black py-2  rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Github Repository</a>
@@ -51,7 +51,7 @@ const Projects = () => {
                 <div className="rounded-xl overflow-hidden">
                   <Image src={banner4} alt="banner"/>
                 </div>
-                <h5 className="text-2xl text-white md:text-3xl font-medium mt-3">Study.Async</h5>
+                <h5 translate="no" className="text-2xl text-white md:text-3xl font-medium mt-3">Study.Async</h5>
                 <p className="text-[#DCDCDC] text-sm mt-3">Interactive Study Platform for Various Areas of Knowledge.</p>
                 <p className="text-md mt-2 he text-white">Technologies: <span className="text-[#00FF00]">Python</span>, <span className="text-[#228B22]">Django</span> e <span className="text-[#1E90FF]">SQLite</span>.</p>
                 <a href="https://github.com/matheusrodrigues1/study.Async" target="_blank" rel="noopener noreferrer" className="text-center bg-white text-black py-2  rounded-lg font-semibold mt-[7.5rem] hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Github Repository</a>
@@ -63,7 +63,7 @@ const Projects = () => {
                 <div className="rounded-xl overflow-hidden">
                   <Image src={banner3} alt="banner"/>
                 </div>
-                <h5 className="text-2xl text-white md:text-3xl font-medium mt-3">Mecajato</h5>
+                <h5 translate="no" className="text-2xl text-white md:text-3xl font-medium mt-3">Mecajato</h5>
                 <p className="text-[#DCDCDC] text-sm mt-3">A service order system developed with Python and Django, using SQLite as the database. Clients can select services, such as oil change, set the pickup date, and view the cost. Employees can generate PDFs with order details, such as vehicle plate, customer name, and service cost, using the fpdf library.</p>
                 <p className="text-md mt-2 he text-white">Technologies: <span className="text-[#00FF00]">Python</span>, <span className="text-[#228B22]">Django</span> e <span className="text-[#1E90FF]">SQLite</span>.</p>
                 <a href="https://github.com/matheusrodrigues1/mecajato" target="_blank" rel="noopener noreferrer" className="text-center bg-white text-black py-2  rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Github Repository</a>
