@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex bg-white pt-5 md:pt-3 lg:pt-10 border-t-2 border-[#22c55e] w-full h-64 lg:h-80 flex-col items-center">
+    <div className="flex bg-white pt-5 md:pt-3 lg:pt-10 border-t-2 border-[#22c55e] w-screen h-64 lg:h-80 flex-col items-center">
       <Image src={Newsletter} alt='newsletter' />
       <h1 className="font-bold text-black mb-3 md:mb-5 lg:mb-8 md:text-xl lg:text-2xl">Send me an email.</h1>
       <div className={`flex bg-white p-3 w-[17rem] md:w-[32rem] lg:w-[40rem] border border-[#808080] justify-center rounded md:rounded-b-none font-medium ${copiado ? 'bg-white' : ''}`}>
