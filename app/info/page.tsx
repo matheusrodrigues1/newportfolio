@@ -7,7 +7,7 @@ import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 const Information = () => {
   return (
     <>
-      <div className="flex bg-[#fffc00] border-t-2 border-[#dc2626] flex-col md:flex-row md:gap-10 h-screen w-screen justify-center items-center md:justify-center mt-6 pt-6">
+      <div className="flex bg-[#fffc00] border-t-2 border-[#dc2626] flex-col md:flex-row md:gap-10 h-screen w-screen justify-center items-center md:justify-center pt-6">
         <div className="flex flex-col items-center md:w-[30rem] lg:w-[40rem]">
           <div className="flex flex-col gap-[0.35rem] lg:gap-[0.87rem]">
           <p className="text-sm md:text-lg text-black lg:text-lg pl-1"><span className="pl-[0.28rem] md:pl-[1rem]">Hi</span>, I m Matheus from Alagoas, a frontend enthusiast with 2 years of experience. I ve been dedicated to studying technologies like <strong className="font-bold">React</strong>, <strong className="font-bold">HTML</strong>, <strong className="font-bold">CSS</strong>, <strong className="font-bold">SASS</strong>, <strong className="font-bold">JavaScript</strong>, <strong className="font-bold">Tailwind</strong>, <strong className="font-bold">MongoDB</strong>, <strong className="font-bold">Node.js</strong>, and <strong className="font-bold">Bootstrap</strong>.<br/></p>

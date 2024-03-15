@@ -1,3 +1,5 @@
+
+import Certification from "./certification/page";
 import Contact from "./contact/page";
 import Home from "./home/page";
 import Information from "./info/page";
@@ -8,6 +10,7 @@ export default function Index() {
     <>
       <Home/>
       <Projects/>
+      <Certification/>
       <Information/>
       <Contact/>
     </>
