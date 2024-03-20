@@ -16,7 +16,7 @@ const Certification: NextPage = () => {
           <h2>
             <AccordionButton>
               <Box flex='1' textAlign='left' className='font-bold text-[0.9rem]'>
-                Certificates and Licenses
+                Certificados e Licenças
               </Box>
               <AccordionIcon className='text-[1.3rem]'/>
             </AccordionButton>
