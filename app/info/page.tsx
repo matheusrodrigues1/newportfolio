@@ -21,7 +21,7 @@ const Information = () => {
             <a href="https://github.com/matheusrodrigues1" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="w-7 h-20 transition-transform transform hover:-translate-y-1 hover:text-teal-500" icon={faGithub} />
             </a>
-            <a href="https://drive.google.com/file/d/1Jfn9RAqFR3YaQbL8j_lJA0z8HHlLI3Xq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1L6o2Eh2L4HMwvDhnV31XDVOmmzRJD4Ac/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="w-[1.4rem] h-20 transition-transform transform hover:-translate-y-1 hover:text-teal-500" icon={faFileLines} />
             </a>
           </div>
