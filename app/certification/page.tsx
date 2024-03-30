@@ -11,7 +11,7 @@ import { NextPage } from 'next';
 const Certification: NextPage = () => {
   return (
     <>
-      <Accordion allowMultiple className='mt-10 pl-5 pr-5 pt-3 pb-3 border-t-2 border-t-yellow-300 bg-[#C0C0C0] w-screen'>
+      <Accordion allowMultiple className='mt-[0.05rem] pl-5 pr-5 pt-3 pb-3 border-t-2 border-[#22c55e] bg-[#C0C0C0] w-screen'>
         <AccordionItem>
           <h2>
             <AccordionButton>
