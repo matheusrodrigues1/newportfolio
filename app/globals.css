@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
   .card {
     @apply rounded-xl shadow-lg;
@@ -23,9 +22,22 @@
   }
 }
 
+/* Ocultar barras de rolagem mas permitir a rolagem */
+html,
 body {
+  overflow: auto; /* Permite a rolagem */
+  height: 100%; /* Garantir que o corpo tenha a altura total */
+  margin: 0; /* Remove margens que possam afetar o layout */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem em Webkit browsers (Chrome, Safari) */
+}
+
+body {
+  scrollbar-width: none; /* Oculta a barra de rolagem em Firefox */
   background-color: white;
-  border-top: #83E509;
+  border-top: #83e509;
 }
 
 @layer utilities {
