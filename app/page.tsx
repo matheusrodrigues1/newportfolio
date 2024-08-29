@@ -1,4 +1,4 @@
-
+import { Header } from "./Header/page";
 import Certification from "./certification/page";
 import Contact from "./contact/page";
 import Formation from "./formation/page";
@@ -9,12 +9,13 @@ import Projects from "./projects/page";
 export default function Index() {
   return (
     <>
-      <Home/>
-      <Projects/>
-      <Formation/>
-      <Certification/>
-      <Information/>
-      <Contact/>
+      <Header />
+      <Home />
+      <Projects />
+      <Formation />
+      <Certification />
+      <Information />
+      <Contact />
     </>
   );
 }
