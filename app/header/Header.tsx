@@ -1,5 +1,4 @@
 import Image from "next/image";
-import arrowRight from "@/public/assets/arrow-right.svg";
 import logo from "@/public/assets/logosaas.png";
 import menuIcon from "@/public/assets/menu.svg";
 
