@@ -1,4 +1,4 @@
-import { Header } from "./Header/page";
+import { Header } from "./header/page";
 import Certification from "./certification/page";
 import Contact from "./contact/page";
 import Formation from "./formation/page";
