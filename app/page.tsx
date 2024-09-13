@@ -1,7 +1,6 @@
 import Certification from "./certification/page";
 import Contact from "./contact/page";
 import Formation from "./formation/page";
-import { Header } from "./header/Header";
 import Home from "./home/page";
 import Information from "./info/page";
 import Projects from "./projects/page";
@@ -9,7 +8,6 @@ import Projects from "./projects/page";
 export default function Index() {
   return (
     <>
-      <Header />
       <Home />
       <Projects />
       <Formation />
