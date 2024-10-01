@@ -163,8 +163,22 @@ const Projects = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    nextArrow: <CustomArrow direction="next" className="slick-next" />,
-    prevArrow: <CustomArrow direction="prev" className="slick-prev" />,
+    nextArrow: (
+      <CustomArrow
+        direction="next"
+        className="slick-next"
+        style={{}}
+        onClick={() => {}}
+      />
+    ),
+    prevArrow: (
+      <CustomArrow
+        direction="prev"
+        className="slick-prev"
+        style={{}}
+        onClick={() => {}}
+      />
+    ),
     responsive: [
       {
         breakpoint: 1024,
