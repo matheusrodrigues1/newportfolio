@@ -7,9 +7,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import banner0 from "@/public/001.jpg";
-import banner from "@/public/01.png";
-import banner2 from "@/public/02.png";
+import banner2 from "@/public/300.jpg";
 import banner5 from "@/public/002.jpg";
 import banner6 from "@/public/003.jpg";
 import "slick-carousel/slick/slick.css";
@@ -70,12 +68,12 @@ const Projects = () => {
           alt: "tailwindcss",
         },
       ],
-      repoLink: "link",
-      liveLink: "link",
+      repoLink: "https://streaming-ntflx.onrender.com/",
+      liveLink: "https://github.com/matheusrodrigues1/streaming-NTFLX",
     },
     {
       image: banner6,
-      title: "Página de Destino",
+      title: "Página de Destino ⚛️",
       description: `Landing page que captura a atenção e deixa uma impressão
       duradoura. Com animações impressionantes e design responsivo
       usando ferramentas de ponta como React, Next.js, TailwindCSS e
@@ -83,38 +81,33 @@ const Projects = () => {
       technologies: "Tecnologias",
       badges: [
         {
+          src: "https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript&logoColor=F7DF1E&color=000000",
+          alt: "javascript",
+        },
+        {
           src: "https://img.shields.io/badge/-React.js-black?style=for-the-badge&logo=react&logoColor=61DAFB&color=000000",
           alt: "reactjs",
+        },
+        {
+          src: "https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js&logoColor=white&color=000000",
+          alt: "nextjs",
         },
         {
           src: "https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node.js&logoColor=green&color=000000",
           alt: "nodejs",
         },
         {
-          src: "https://img.shields.io/badge/-Express.js-black?style=for-the-badge&logo=express&logoColor=white&color=000000",
-          alt: "expressjs",
-        },
-        {
-          src: "https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb&logoColor=47A248&color=000000",
-          alt: "mongodb",
-        },
-        {
           src: "https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4",
           alt: "tailwindcss",
         },
       ],
-      repoLink: "link",
-      liveLink: "link",
+      repoLink: "https://github.com/matheusrodrigues1/PaginaDeDestino-SaaS",
+      liveLink: "https://pagina-de-destino-saas.vercel.app/",
     },
     {
-      image: banner0,
-      title: "Imaginify",
-      description: ` Uma plataforma de imagens de IA destacada que se destaca em
-      recursos de processamento de imagens, integra uma infraestrutura
-      de pagamento segura, oferece funcionalidades avançadas de
-      pesquisa de imagens e suporta vários recursos de IA, incluindo
-      restauração de imagens, recoloração, remoção de objetos, pintura
-      generativa e remoção de fundo.`,
+      image: banner2,
+      title: "E-commerce - Estilo Urbano 🛍️",
+      description: `E-commerce integrado com Next.js, React, Node.js, MongoDB e Stripe. Com um design moderno e responsivo, o projeto oferece uma experiência de usuário envolvente e eficiente.`,
       technologies: "Tecnologias",
       badges: [
         {
@@ -138,22 +131,8 @@ const Projects = () => {
           alt: "tailwindcss",
         },
       ],
-      repoLink: "link",
-      liveLink: "link",
-    },
-    {
-      image: banner0,
-      title: "Imaginify",
-      description: `Uma plataforma de imagens de IA destacada que se destaca em
-      recursos de processamento de imagens, integra uma infraestrutura
-      de pagamento segura, oferece funcionalidades avançadas de
-      pesquisa de imagens e suporta vários recursos de IA, incluindo
-      restauração de imagens, recoloração, remoção de objetos, pintura
-      generativa e remoção de fundo.`,
-      technologies: "Tecnologias",
-      badges: [],
-      repoLink: "link",
-      liveLink: "link",
+      repoLink: "https://github.com/matheusrodrigues1/e-commerce-store",
+      liveLink: "https://e-commerce-store-mwtk.onrender.com/",
     },
   ];
 
