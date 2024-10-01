@@ -8,6 +8,21 @@
   }
 }
 
+html,
+body {
+  overflow: auto; /* Permite a rolagem */
+  height: 100%; /* Garantir que o corpo tenha a altura total */
+  margin: 0; /* Remove margens que possam afetar o layout */
+}
+body::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem em Webkit browsers (Chrome, Safari) */
+}
+body {
+  scrollbar-width: none; /* Oculta a barra de rolagem em Firefox */
+  background-color: white;
+  border-top: #83e509;
+}
+
 .slick-slide > div {
   margin: 0 10px;
 }
