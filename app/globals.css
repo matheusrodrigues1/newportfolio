@@ -8,40 +8,42 @@
   }
 }
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.slick-slide > div {
+  margin: 0 10px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.slick-prev,
+.slick-next {
+  color: darkgray; /* Muda a cor das setas */
+  font-size: 24px; /* Tamanho da seta */
+  z-index: 1; /* Garante que as setas fiquem acima dos slides */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: darkgray; /* Cor dos ícones das setas */
+}
+
+.badge-container {
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap; /* Impede quebra de linha */
+}
+
+.badge-content {
+  display: flex inline-block; /* Garante que o conteúdo seja tratado como bloco */
+  animation: marquee 15s linear infinite; /* Aumente o tempo para uma animação mais lenta */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
   }
+  100% {
+    transform: translateX(-200%);
+  } /* Ajuste conforme necessário */
 }
 
-/* Ocultar barras de rolagem mas permitir a rolagem */
-html,
-body {
-  overflow: auto; /* Permite a rolagem */
-  height: 100%; /* Garantir que o corpo tenha a altura total */
-  margin: 0; /* Remove margens que possam afetar o layout */
-}
-
-body::-webkit-scrollbar {
-  display: none; /* Oculta a barra de rolagem em Webkit browsers (Chrome, Safari) */
-}
-
-body {
-  scrollbar-width: none; /* Oculta a barra de rolagem em Firefox */
-  background-color: white;
-  border-top: #83e509;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.badge-content img {
+  margin-right: 10px; /* Espaçamento entre as badges */
 }
