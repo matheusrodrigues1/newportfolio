@@ -244,7 +244,7 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 text-center w-full bg-zinc-50 mt-8"
+                  className="text-blue-500 text-center w-full bg-transparent  mt-7 border border-zinc-400"
                 >
                   Acesse o link do projeto aqui!
                 </a>
@@ -252,7 +252,7 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 text-center bg-zinc-50 mt-1"
+                  className="text-blue-500 text-center bg-zinc-50 mt-1 mb-2"
                 >
                   Ver Repositório 🐙
                 </a>
