@@ -42,6 +42,36 @@ const CustomArrow: React.FC<CustomArrowProps> = ({
 const Projects = () => {
   const projects = [
     {
+      image: banner2,
+      title: "E-commerce - Estilo Urbano 🛍️",
+      description: `E-commerce integrado com Next.js, React, Node.js, MongoDB e Stripe. Com um design moderno e responsivo, o projeto oferece uma experiência de usuário envolvente e eficiente.`,
+      technologies: "Tecnologias",
+      badges: [
+        {
+          src: "https://img.shields.io/badge/-React.js-black?style=for-the-badge&logo=react&logoColor=61DAFB&color=000000",
+          alt: "reactjs",
+        },
+        {
+          src: "https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node.js&logoColor=green&color=000000",
+          alt: "nodejs",
+        },
+        {
+          src: "https://img.shields.io/badge/-Express.js-black?style=for-the-badge&logo=express&logoColor=white&color=000000",
+          alt: "expressjs",
+        },
+        {
+          src: "https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb&logoColor=47A248&color=000000",
+          alt: "mongodb",
+        },
+        {
+          src: "https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4",
+          alt: "tailwindcss",
+        },
+      ],
+      repoLink: "https://github.com/matheusrodrigues1/e-commerce-store",
+      liveLink: "https://e-commerce-store-mwtk.onrender.com/",
+    },
+    {
       image: banner5,
       title: "Clone da Netflix 🎬",
       description: `Este projeto visa criar uma plataforma de streaming semelhante à Netflix, permitindo aos usuários buscar, assistir e descobrir filmes e programas de TV. Utilizando uma stack moderna e eficiente, o projeto oferece uma experiência de usuário envolvente e responsiva.`,
@@ -104,36 +134,6 @@ const Projects = () => {
       repoLink: "https://github.com/matheusrodrigues1/PaginaDeDestino-SaaS",
       liveLink: "https://pagina-de-destino-saas.vercel.app/",
     },
-    {
-      image: banner2,
-      title: "E-commerce - Estilo Urbano 🛍️",
-      description: `E-commerce integrado com Next.js, React, Node.js, MongoDB e Stripe. Com um design moderno e responsivo, o projeto oferece uma experiência de usuário envolvente e eficiente.`,
-      technologies: "Tecnologias",
-      badges: [
-        {
-          src: "https://img.shields.io/badge/-React.js-black?style=for-the-badge&logo=react&logoColor=61DAFB&color=000000",
-          alt: "reactjs",
-        },
-        {
-          src: "https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node.js&logoColor=green&color=000000",
-          alt: "nodejs",
-        },
-        {
-          src: "https://img.shields.io/badge/-Express.js-black?style=for-the-badge&logo=express&logoColor=white&color=000000",
-          alt: "expressjs",
-        },
-        {
-          src: "https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb&logoColor=47A248&color=000000",
-          alt: "mongodb",
-        },
-        {
-          src: "https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4",
-          alt: "tailwindcss",
-        },
-      ],
-      repoLink: "https://github.com/matheusrodrigues1/e-commerce-store",
-      liveLink: "https://e-commerce-store-mwtk.onrender.com/",
-    },
   ];
 
   const settings = {
@@ -172,17 +172,17 @@ const Projects = () => {
 
   return (
     <div className="w-3/4 m-auto">
-      <div className="mt-20">
+      <div className="mt-20 rounded">
         <Slider {...settings} className="">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white h-[480px] text-white flex flex-col "
+              className="bg-white h-[480px] text-white flex flex-col"
             >
               <Image
                 src={project.image}
                 alt={project.title}
-                className="w-full h-[200px] object-cover"
+                className="w-full h-[200px] object-cover rounded-t-md"
               />
               <div className="flex flex-col justify-between flex-grow bg-black p-4">
                 <h5 className="font-bold text-center">{project.title}</h5>
@@ -223,7 +223,7 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 text-center w-full bg-transparent  mt-7 border border-zinc-400"
+                  className="text-blue-500 text-center w-full bg-transparent  mt-6 border border-zinc-400 rounded"
                 >
                   Acesse o link do projeto aqui!
                 </a>
@@ -231,7 +231,7 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 text-center bg-zinc-50 mt-1 mb-2"
+                  className="text-blue-500 text-center bg-zinc-50 mt-1 mb-2 rounded"
                 >
                   Ver Repositório 🐙
                 </a>
