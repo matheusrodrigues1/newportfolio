@@ -22,9 +22,10 @@ const Certification: NextPage = () => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} className='pl-3 mt-3'>
-            • Fullstack Javascript - <span className='font-bold'>OneBitCode</span><br/>
-            • Soft Skills para Carreiras de TI - <span className='font-bold'>4Linux</span><br/>
             • Curso Excel Avançado 2.0 - <span className='font-bold'>Sigma Treinamentos</span><br/>
+            • Fullstack Javascript - <span className='font-bold'>OneBitCode</span><br/>
+            • Analista de Redes - <span className='font-bold'>Fórum Telecom</span><br/>
+            • Soft Skills para Carreiras de TI - <span className='font-bold'>4Linux</span><br/>
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
