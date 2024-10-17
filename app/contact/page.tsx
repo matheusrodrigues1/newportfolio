@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex bg-neutral-900 pt-5 md:pt-3 lg:pt-10 border-t-2 border-[#22c55e] w-screen h-64 lg:h-80 flex-col items-center">
+    <div className="flex bg-neutral-900 pt-5 md:pt-3 lg:pt-10 w-screen h-64 lg:h-80 flex-col items-center">
       <EnvelopeIcon className="h-16 w-16 text-white mb-4" />
       <h1 className="font-bold text-white mb-3 md:mb-5 lg:mb-8 md:text-xl lg:text-2xl">
         Mande-me um email.

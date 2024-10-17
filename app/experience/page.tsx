@@ -13,7 +13,7 @@ const Experiencia: NextPage = () => {
     <>
       <Accordion
         allowMultiple
-        className="mt-10 pl-5 pr-5 pt-3 pb-3 border-t-2 border-t-yellow-300 bg-[#C0C0C0] w-screen"
+        className="mt-10 pl-5 pr-5 pt-3 pb-3 border-t-2 border-zinc-950 bg-[#C0C0C0] w-screen"
       >
         <AccordionItem>
           <h2>
