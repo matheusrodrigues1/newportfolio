@@ -24,3 +24,7 @@ Este portfólio foi criado para apresentar meus projetos pessoais e profissionai
 </table>
 
 ### 🚀
+
+## Licença
+
+Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
