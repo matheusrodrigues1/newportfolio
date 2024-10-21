@@ -17,7 +17,7 @@ Este portfólio foi criado para apresentar meus projetos pessoais e profissionai
     <tr>
         <td>
             ✉️: <a href="mailto:carlostech873@gmail.com">Email</a><br>
-            📄: <a href="https://drive.google.com/file/d/1Jfn9RAqFR3YaQbL8j_lJA0z8HHlLI3Xq/view?pli=1">Currículo</a><br>
+            📄: <a href="https://drive.google.com/file/d/1Wt26GmlvhTULOGIfbBJem_yJdCoxEmQw/view?usp=sharing">Currículo</a><br>
             💼: <a href="https://www.linkedin.com/in/matheus-rodrigues-1a1899231/">Linkedin</a><br>
             📸: <a href="https://www.instagram.com/math.eusrrodrigues/">Instagram</a>
     </tr>
