@@ -223,7 +223,7 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 text-center w-full bg-transparent  mt-6 border border-zinc-400 rounded"
+                  className="text-white text-center w-full bg-green-500 shadow-sm shadow-sm  mt-6 border border-zinc-400 rounded"
                 >
                   Acesse o link do projeto aqui!
                 </a>
