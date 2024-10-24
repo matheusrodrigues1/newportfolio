@@ -12,6 +12,7 @@ import banner5 from "@/public/002.jpg";
 import banner6 from "@/public/003.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 interface CustomArrowProps {
   className: string;
@@ -223,7 +224,7 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white text-center w-full bg-green-500 shadow-sm shadow-sm  mt-6 border border-zinc-400 rounded"
+                  className="text-white text-center w-full bg-green-500 shadow-sm  mt-6 rounded"
                 >
                   Acesse o link do projeto aqui!
                 </a>
@@ -231,9 +232,13 @@ const Projects = () => {
                   href={project.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 text-center bg-zinc-50 mt-1 mb-2 rounded"
+                  className="text-black text-center bg-zinc-50 mt-1 mb-2 rounded items-center flex justify-center"
                 >
-                  Ver Repositório 🐙
+                  Ver Repositório
+                  <FontAwesomeIcon
+                    className="w-7 md:w-10 lg:w-16 transition-transform transform hover:-translate-y-1 hover:text-white"
+                    icon={faGithub}
+                  />
                 </a>
               </div>
             </div>
