@@ -29,11 +29,33 @@ const Experiencia: NextPage = () => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} className="pl-3 mt-3">
-            <span className="font-bold">Starti</span> - 1º empresa Júnior de
+            <span className="font-bold">Suporte Técnico em TI</span> - Atuação
+            em diversas áreas de suporte técnico.
+            <br /> • Suporte técnico em infraestrutura de redes, solucionando
+            problemas de conectividade e desempenho.
+            <br /> • Atendimento a usuários em questões relacionadas à
+            infraestrutura de computadores e manutenção de dispositivos.
+            <br /> • Suporte aos colaboradores no uso do ERP Winthor e
+            aplicações como Max Pedido, Fusion e Onblox WMS.
+            <br /> • Manutenção de computadores, impressoras e dispositivos
+            móveis, assegurando a continuidade das operações.
+            <br /> • Organização de tarefas, projeção de atividades e abertura
+            de chamados, contribuindo para a eficiência da equipe.
+            <br /> • Responsável por compras de ativos, garantindo que a equipe
+            tenha os recursos necessários para o desempenho eficaz.
+          </AccordionPanel>
+          <AccordionPanel pb={4} className="pl-3 mt-3">
+            <span className="font-bold">Starti</span> - 1ª empresa Júnior de
             Tecnologia em Alagoas -{" "}
             <span className="font-bold">IFAL campus Arapiraca</span>
             <br /> • Desenvolvedor de software atuando tanto no frontend quanto
             no backend, atualmente trabalhando com backend utilizando GoLang.
+            <br /> • Colaborei no desenvolvimento de uma plataforma de gestão de
+            projetos, melhorando a eficiência da equipe.
+            <br /> • Implementei testes automatizados, aumentando a qualidade e
+            a confiabilidade do software.
+            <br /> • Apliquei metodologias ágeis, como Scrum, para otimizar o
+            fluxo de trabalho e entregas.
           </AccordionPanel>
           <AccordionPanel pb={4} className="pl-3 mt-3">
             <span className="font-bold">Freelancer</span>
@@ -43,6 +65,22 @@ const Experiencia: NextPage = () => {
             desenvolvi páginas de vendas, plataformas de e-commerce, integrações
             com APIs e interfaces interativas, sempre focando na usabilidade e
             na performance.
+            <br /> • Criei soluções personalizadas para clientes, adaptando
+            tecnologias e frameworks às suas necessidades específicas.
+            <br /> • Mantive comunicação constante com clientes, garantindo
+            alinhamento nas expectativas e prazos.
+          </AccordionPanel>
+          <AccordionPanel pb={4} className="pl-3 mt-3">
+            <span className="font-bold">Telemarketing</span> - Experiência em
+            atendimento ao cliente e vendas.
+            <br /> • Realização de chamadas para prospecção e atendimento a
+            clientes, oferecendo informações sobre produtos e serviços.
+            <br /> • Atendimento a dúvidas e reclamações, buscando sempre a
+            satisfação do cliente e a resolução rápida de problemas.
+            <br /> • Registro e acompanhamento de interações no sistema,
+            garantindo um histórico completo de cada atendimento.
+            <br /> • Colaboração com a equipe de vendas para atingir metas e
+            objetivos, contribuindo para o crescimento da empresa.
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
