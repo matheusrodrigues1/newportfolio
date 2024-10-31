@@ -60,7 +60,7 @@ const Experiencia: NextPage = () => {
           </AccordionPanel>
           <AccordionPanel pb={4} className="pl-3 mt-3">
             <span className="font-bold">Freelancer</span>
-            <div className="ml-5 mt-[-1rem] lg:pr-10">
+            <div className="ml-5 mt-[-1rem] lg:pr-28">
               <br /> • Com dois anos de experiência como freelancer na área de
               desenvolvimento full stack, especializei-me em tecnologias como
               JavaScript, Next.js, React, Node.js e MongoDB. Ao longo desse
