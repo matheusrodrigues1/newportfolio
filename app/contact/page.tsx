@@ -18,9 +18,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex bg-neutral-900 pt-5 md:pt-3 lg:pt-10 w-screen h-64 lg:h-80 flex-col items-center">
-      <EnvelopeIcon className="h-16 w-16 text-white mb-4" />
-      <h1 className="font-bold text-white mb-3 md:mb-5 lg:mb-8 md:text-xl lg:text-2xl">
+    <div className="flex bg-gray-200 pt-5 md:pt-3 lg:pt-10 w-screen h-64 lg:h-80 flex-col items-center">
+      <EnvelopeIcon className="h-16 w-16 text-blue-700 mb-4" />
+      <h1 className="font-bold text-black mb-3 md:mb-5 lg:mb-8 md:text-xl lg:text-2xl">
         Mande-me um email.
       </h1>
       <div
@@ -37,7 +37,7 @@ const Contact = () => {
       </div>
       <button
         onClick={copiarEmail}
-        className="mt-1 p-3 w-[17rem] md:w-[32rem] lg:w-[40rem] bg-green-500 text-black rounded md:rounded-t-none hover:bg-[#808080]"
+        className="mt-1 p-3 w-[17rem] md:w-[32rem] lg:w-[40rem] bg-green-500 text-white shadow-md shadow-black rounded md:rounded-t-none hover:bg-[#808080]"
       >
         {copiado ? "EMAIL COPIADO!" : "COPIAR EMAIL"}
       </button>

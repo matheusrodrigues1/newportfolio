@@ -178,14 +178,14 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white h-[480px] text-white flex flex-col"
+              className="bg-white h-[480px] lg:h-[500px] text-white flex flex-col"
             >
               <Image
                 src={project.image}
                 alt={project.title}
-                className="w-full h-[200px] object-cover rounded-t-md"
+                className="w-full h-[200px] object-cover rounded"
               />
-              <div className="flex flex-col justify-between flex-grow bg-black p-4">
+              <div className="flex flex-col justify-between flex-grow bg-black p-4 rounded-b-sm rounded-t-none">
                 <h5 className="font-bold text-center">{project.title}</h5>
                 <p className="text-sm overflow-hidden max-h-[80px] mb-4">
                   {project.description}

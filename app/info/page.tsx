@@ -9,7 +9,7 @@ const Information = () => {
     <>
       <div className="flex bg-white border-t-2 border-zinc-950 flex-col md:flex-row md:gap-10 h-screen w-screen justify-center items-center md:justify-center pt-6">
         <div className="flex flex-col items-center md:w-[30rem] lg:w-[40rem]">
-          <div className="flex flex-col gap-[0.35rem] lg:gap-[0.87rem]">
+          <div className="flex flex-col gap-[0.35rem] lg:gap-[0.87rem] ml-3 mr-1">
             <p className="text-sm md:text-lg text-black lg:text-lg pl-1">
               <span className="pl-[0.28rem] md:pl-[1rem]">Oi</span>, sou
               Matheus, alagoano, entusiasta de tecnologia com 2 anos de
