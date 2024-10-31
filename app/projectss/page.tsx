@@ -10,6 +10,7 @@ import {
 import banner2 from "@/public/300.jpg";
 import banner5 from "@/public/002.jpg";
 import banner6 from "@/public/003.jpg";
+import banner7 from "@/public/gc.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -42,6 +43,32 @@ const CustomArrow: React.FC<CustomArrowProps> = ({
 
 const Projects = () => {
   const projects = [
+    {
+      image: banner7,
+      title: "GoldCard 💳",
+      description: `E-commerce integrado com Next.js, React, Node.js, MongoDB e Stripe. Com um design moderno e responsivo, o projeto oferece uma experiência de usuário envolvente e eficiente.`,
+      technologies: "Tecnologias",
+      badges: [
+        {
+          src: "https://img.shields.io/badge/-React.js-black?style=for-the-badge&logo=react&logoColor=61DAFB&color=000000",
+          alt: "reactjs",
+        },
+        {
+          src: "https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js&logoColor=white&color=000000",
+          alt: "nextjs",
+        },
+        {
+          src: "https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node.js&logoColor=green&color=000000",
+          alt: "nodejs",
+        },
+        {
+          src: "https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4",
+          alt: "tailwindcss",
+        },
+      ],
+      repoLink: "https://github.com/matheusrodrigues1/cardgld",
+      liveLink: "https://cardgld.vercel.app/",
+    },
     {
       image: banner2,
       title: "E-commerce - Estilo Urbano 🛍️",
