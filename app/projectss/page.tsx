@@ -221,7 +221,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <a
-                  href={project.repoLink}
+                  href={project.liveLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white text-center w-full bg-green-500 shadow-sm  mt-6 rounded"
