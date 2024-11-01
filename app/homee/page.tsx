@@ -73,7 +73,7 @@ const Homee = () => {
             />
           </a>
         </div>
-        <div className="">
+        <div className="mt-5">
           <h1
             translate="no"
             className={`${roboto.className} mb-[-10px] text-6xl font-bold md:mb-[-23px] lg:mb-[-35px]`}
@@ -87,8 +87,8 @@ const Homee = () => {
             DEVELOPER
           </h1>
         </div>
-        <div className="">
-          <p className="font-normal text-[#363636] pl-10 md:font-bold text-[0.75rem] md:text-[0.90rem] lg:text-base text-left leading-3">
+        <div className="w-full mt-1">
+          <p className="font-normal text-[#363636] ml-6 mr-4 md:font-bold text-[0.75rem] md:text-[0.90rem] lg:text-base text-left leading-3">
             TENHO 24 ANOS, SOU DESENVOLVEDOR FULLSTACK COM 2 ANOS DE EXPERIÊNCIA
             TRABALHANDO COMO FREELANCER.
           </p>
