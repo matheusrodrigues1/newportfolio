@@ -46,7 +46,7 @@ const Projects = () => {
     {
       image: banner7,
       title: "GoldCard 💳",
-      description: `Esta página de vendas apresenta um design dinâmico, responsivo e moderno. Com a utilização das mais recentes tecnologias, oferece uma experiência interativa para os usuários, garantindo uma navegação fluida e intuitiva. Além disso, conta com copywriting cativante, projetado para engajar e converter visitantes em clientes.`,
+      description: `Projeto freelancer de uma página de vendas para um cliente afiliado, com design dinâmico, moderno e responsivo.`,
       technologies: "Tecnologias",
       badges: [
         {
@@ -71,7 +71,7 @@ const Projects = () => {
     },
     {
       image: banner2,
-      title: "E-commerce - Estilo Urbano 🛍️",
+      title: "Estilo Urbano 🛍️",
       description: `E-commerce integrado com Next.js, React, Node.js, MongoDB e Stripe. Com um design moderno e responsivo, o projeto oferece uma experiência de usuário envolvente e eficiente.`,
       technologies: "Tecnologias",
       badges: [
