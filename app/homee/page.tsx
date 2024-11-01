@@ -88,9 +88,9 @@ const Homee = () => {
           </h1>
         </div>
         <div className="w-full mt-1">
-          <p className="font-normal text-[#363636] ml-6 mr-4 md:font-bold text-[0.75rem] md:text-[0.90rem] lg:text-base text-left leading-3">
-            TENHO 24 ANOS, SOU DESENVOLVEDOR FULLSTACK COM 2 ANOS DE EXPERIÊNCIA
-            TRABALHANDO COMO FREELANCER.
+          <p className="font-normal text-[#363636] ml-7 pr-5 md:font-bold text-[0.75rem] md:text-[0.90rem] lg:text-base text-left leading-3">
+            TENHO 24 ANOS, SOU DESENVOLVEDOR DE SOFTWARE COM 3 ANOS DE
+            EXPERIÊNCIA TRABALHANDO NA ÁREA DE TECNOLOGIA DA INFORMAÇÃO.
           </p>
         </div>
         <div className="flex items-center justify-start mt-40">
