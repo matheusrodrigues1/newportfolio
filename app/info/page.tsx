@@ -32,7 +32,7 @@ const Information = () => {
               discussões sobre desenvolvimento de software.
               <br />
             </p>
-            <p className="text-sm md:text-lg text-black lg:text-lg pl-1">
+            <p className="text-sm md:text-lg text-black lg:text-lg pl-1 pr-1">
               Estou buscando desafios e oportunidades para contribuir com
               projetos inovadores. Entusiasmado com meu crescimento contínuo,
               estou ansioso para aplicar minhas habilidades em projetos
