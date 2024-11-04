@@ -31,7 +31,7 @@ const Homee = () => {
   return (
     <>
       <div className="flex bg-[#fffc00] flex-col w-full h-full items-center justify-center">
-        <div className="flex gap-3 text-[#808080] mt-20">
+        <div className="flex gap-3 items-center justify-center text-[#808080] mt-20">
           <a
             href="https://www.linkedin.com/in/matheus-rodrigues-1a1899231/"
             target="_blank"
@@ -58,7 +58,7 @@ const Homee = () => {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon
-              className="w-7 h-9 lg:h-16 md:w-[1.8rem] lg:w-[2rem] transition-transform transform hover:-translate-y-1 hover:text-[#0000CD]"
+              className="w-7 h-9 lg:h-16 md:w-[1.8rem] lg:w-[2rem] md:mt-1 transition-transform transform hover:-translate-y-1 hover:text-[#0000CD]"
               icon={faFileLines}
             />
           </a>
@@ -68,7 +68,7 @@ const Homee = () => {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon
-              className="w-8 mb-0 h-10 lg:h-12 md:w-10 lg:w-12 lg:mt-2 transition-transform transform hover:-translate-y-1 hover:text-[#3f729b]"
+              className="w-8 mb-0 h-10 lg:h-12 md:w-10 md:mt-[0.22rem] lg:w-12 lg:mt-2 transition-transform transform hover:-translate-y-1 hover:text-[#3f729b]"
               icon={faInstagram}
             />
           </a>
