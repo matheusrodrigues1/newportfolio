@@ -58,7 +58,7 @@ const Homee = () => {
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon
-              className="w-7 h-9 lg:h-16 md:w-[1.8rem] lg:w-[2rem] md:mt-1 transition-transform transform hover:-translate-y-1 hover:text-[#0000CD]"
+              className="w-7 h-8 lg:h-16 md:w-[1.8rem] lg:w-[2rem] md:mt-1 transition-transform transform hover:-translate-y-1 hover:text-[#0000CD]"
               icon={faFileLines}
             />
           </a>
