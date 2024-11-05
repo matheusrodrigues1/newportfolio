@@ -94,14 +94,12 @@ const Homee = () => {
           </p>
         </div>
         <div className="flex items-center justify-start mt-40 md:mt-28">
-          <Link href="/projectss">
-            <FontAwesomeIcon
-              className={`text-white w-9 lg:w-11 text-6xl mr-2 cursor-pointer transition-transform transform ${
-                isIconUp ? "-translate-y-1" : "translate-y-1"
-              }`}
-              icon={faCircleDown}
-            />
-          </Link>
+          <FontAwesomeIcon
+            className={`text-white w-9 lg:w-11 text-6xl mr-2 cursor-pointer transition-transform transform ${
+              isIconUp ? "-translate-y-1" : "translate-y-1"
+            }`}
+            icon={faCircleDown}
+          />
         </div>
       </div>
     </>
