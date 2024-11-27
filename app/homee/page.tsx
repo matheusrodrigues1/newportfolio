@@ -12,7 +12,6 @@ import {
   faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 import { Roboto } from "next/font/google"; // Importando a fonte
 
@@ -88,7 +87,7 @@ const Homee = () => {
           </h1>
         </div>
         <div className="w-full mt-1 md:mt-0">
-          <p className="font-normal text-[#363636] ml-11 lg:ml-72 pr-8 md:pr-28 md:ml-64 md:font-bold text-[0.75rem] md:text-[0.90rem] lg:text-base text-left leading-3 md:leading-4">
+          <p className="font-normal text-[#363636] ml-11 lg:ml-72 pr-8 md:pr-28 xl:pr-[22rem] 2xl:pr-[28rem] md:ml-64 md:font-bold text-[0.75rem] md:text-[0.90rem] xl:text-[1.1rem] xl:ml-[29.5rem] 2xl:ml-[31rem] lg:text-base text-left leading-3 md:leading-4">
             TENHO 24 ANOS, SOU DESENVOLVEDOR DE SOFTWARE COM 3 ANOS DE
             EXPERIÊNCIA TRABALHANDO NA ÁREA DE TECNOLOGIA DA INFORMAÇÃO.
           </p>
