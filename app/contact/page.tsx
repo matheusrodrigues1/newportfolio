@@ -36,17 +36,17 @@ const Contact = () => {
       </div>
       <button
         onClick={copiarEmail}
-        className="mt-1 p-3 w-[17rem] md:w-[32rem] lg:w-[40rem] bg-green-500 text-white shadow-sm shadow-black rounded md:rounded-t-none hover:bg-[#808080]"
+        className="mt-1 px-2 py-2 w-[17rem] md:w-[32rem] lg:w-[40rem] bg-green-500 text-white shadow-sm shadow-black rounded md:rounded-t-none hover:bg-[#808080]"
       >
         {copiado ? "EMAIL COPIADO!" : "COPIAR EMAIL"}
       </button>
-      <span className="text-black font-extrabold mt-1">Ou</span>
+      <span className="text-black font-extrabold">Ou</span>
       <a
         href="https://wa.me/5582996465314" // Substitua pelo número do WhatsApp
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="mt-1 mb-3 px-2 py-2 w-[17rem] gap-1 text-sm bg-green-500 text-white shadow-sm shadow-black rounded md:rounded-t-none hover:bg-[#808080] flex items-center justify-center">
+        <button className=" mb-3 px-2 py-2 w-[17rem] md:w-[32rem] lg:w-[40rem] gap-1 text-sm md:text-lg bg-green-500 text-white shadow-sm shadow-black rounded md:rounded-t-none hover:bg-[#808080] flex items-center justify-center">
           <FaWhatsapp className="text-white text-xl" />
           <span>Enviar mensagem no WhatsApp</span>
         </button>

@@ -46,7 +46,7 @@ const Projects = () => {
     {
       image: banner7,
       title: "GoldCard 💳",
-      description: `Projeto freelancer de uma página de vendas para um cliente afiliado, com design dinâmico, moderno e responsivo.`,
+      description: `Página de vendas para cliente afiliado, com design dinâmico e moderno. Projeto freelancer com foco em responsividade e usabilidade.`,
       technologies: "Tecnologias",
       badges: [
         {
@@ -210,7 +210,7 @@ const Projects = () => {
               <Image
                 src={project.image}
                 alt={project.title}
-                className="w-full h-[200px] object-cover rounded"
+                className="w-full h-[200px] object-cover rounded rounded-b-none"
               />
               <div className="flex flex-col justify-between flex-grow bg-black p-4 rounded-b-sm rounded-t-none">
                 <h5 className="font-bold text-center">{project.title}</h5>
