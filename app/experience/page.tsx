@@ -56,7 +56,7 @@ const Experiencia: NextPage = () => {
             <div className="ml-5 mt-[-1rem] lg:pr-10">
               <br /> • Desenvolvedor de software atuando tanto no frontend
               quanto no backend, atualmente trabalhando com backend utilizando
-              GoLang.
+              Golang.
             </div>
           </AccordionPanel>
           <AccordionPanel pb={4} className="pl-3 mt-3">

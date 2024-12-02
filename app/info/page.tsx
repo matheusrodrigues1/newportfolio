@@ -21,12 +21,12 @@ const Information = () => {
               <strong className="font-bold">SASS</strong>,{" "}
               <strong className="font-bold">MongoDB</strong>,{" "}
               <strong className="font-bold">Node.js</strong>, e{" "}
-              <strong className="font-bold">GoLang</strong>.<br />
+              <strong className="font-bold">Golang</strong>.<br />
             </p>
             <p className="text-sm md:text-lg text-black lg:text-lg pl-1">
               Recentemente, tenho explorado{" "}
               <strong className="font-bold">TypeScript</strong> e{" "}
-              <strong className="font-bold">Go</strong> para expandir minha base
+              <strong className="font-bold">Golang</strong> para expandir minha base
               de conhecimento. No <strong className="font-bold">Github</strong>,
               compartilho projetos com React e Go e, no LinkedIn, participo de
               discussões sobre desenvolvimento de software.
