@@ -21,6 +21,15 @@ const Homee = () => {
   const [isIconUp, setIsIconUp] = useState(true);
 
   useEffect(() => {
+    // Verifica se há parâmetros na URL
+    if (typeof window !== "undefined") {
+      const url = window.location.href;
+      const cleanUrl = url.split("?")[0]; // Remove os parâmetros
+      window.history.replaceState(null, "", cleanUrl); // Atualiza a URL
+    }
+  }, []);
+
+  useEffect(() => {
     const intervalId = setInterval(() => {
       setIsIconUp((prev) => !prev);
     }, 350);

@@ -54,9 +54,7 @@ const Experiencia: NextPage = () => {
             <span className="font-bold">IFAL campus Arapiraca</span> (12/2023
             até o momento)
             <div className="ml-5 mt-[-1rem] lg:pr-10">
-              <br /> • Desenvolvedor de software atuando tanto no frontend
-              quanto no backend, atualmente trabalhando com backend utilizando
-              Golang.
+              <br /> • Desenvolvedor de software backend utilizando Golang.
             </div>
           </AccordionPanel>
           <AccordionPanel pb={4} className="pl-3 mt-3">
