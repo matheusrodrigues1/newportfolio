@@ -32,7 +32,7 @@ const Experiencia: NextPage = () => {
             <span className="font-bold">
               Suporte Técnico em TI - Toledo Distribuidor
             </span>{" "}
-            (10/2024 até o momento)
+            (10/2024 até 05/2025)
             <div className="ml-5 mt-[-1rem] lg:pr-10">
               <br /> • Suporte técnico em infraestrutura de redes, solucionando
               problemas de conectividade e desempenho.
